@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import react,{useContext,useState} from 'react'
 import DropDownContext from '../context/DropDownContext';
 import DropDown from '../components/DropDown';
+import AboutMe from '../components/AboutMe';
 
 function App() {
 
@@ -16,10 +17,8 @@ function App() {
     <div className="App">
       <div>
           <Navbar/>
-          
-        
-              
-              <Hero/>
+           <Hero/>
+           <AboutMe/>
         
           
       </div>
